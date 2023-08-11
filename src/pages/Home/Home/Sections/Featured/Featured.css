@@ -1,0 +1,32 @@
+.featured-item{
+    background-image: url(../../../../../assets/home/featured.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.featured-item::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(21, 21, 21, 0.7);
+    z-index: -1;
+}
+
+.UnderLine-btn{
+    border-bottom: 3px solid #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.UnderLine-btn:hover{
+    border: none;
+    background: #1F2937;
+}
